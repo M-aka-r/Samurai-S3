@@ -1,0 +1,188 @@
+html, body {
+background-color: silver;
+  font-family:sans-serif;
+}
+header{
+  position:fixed;
+  font-size:33px;
+  top:0px;
+  right:0px;
+  background-image:linear-gradient(grey,white)
+}
+.header_text{
+  padding:20px;
+}
+h1{
+  font-size:50px;
+  text-align: center;
+  margin: none;
+  background-image:linear-gradient(black,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.polvina-1{
+  width:520px;
+  height:360px;
+  position:relative;
+  left:70px;
+  top:15px;
+}
+.polvina-2{
+  width:520px;
+  height:360px;
+  position:relative;
+  right:180px;
+  top:115px
+}
+.polvina-3{
+  width:520px;
+  height:360px;
+  position:relative;
+  left:670px;
+  bottom:155px
+}
+.polvina-4{
+  width:520px;
+  height:360px;
+  position:relative;
+  left:470px;
+  bottom:15px;
+}
+h2{
+  font-size:40px;
+  text-align:center;
+}
+.div_1{
+  width:400px;
+  background-color:white;
+  height:550px;
+  box-shadow:0px 0px 4px 1px gray;
+  position:relative;
+  left:140px;
+}
+.div_1:hover{
+  box-shadow:0px 0px 7px 5px gray;
+  transition:0.2s ease-out;
+}
+.img_1{
+  width:250px;
+  height:300px;
+  padding:42px;
+}
+.p_1{
+  font-size:30px;
+  position:relative;
+  left:200px;
+  display:block;
+  bottom:20px;
+}
+h3{
+  position:relative;
+  display:block;
+  left:20px;
+  top:20px;
+  font-size:30px;
+  bottom:100px;
+}
+.cculka{
+  text-decoration:none;
+  border:1px solid black;
+  border-radius:15px;
+  background-color:white;
+  padding:10px;
+  font-size:15px;
+  color:purple;
+  position:relative;
+  bottom:50px;
+  left:30px;
+}
+.cculka:hover{
+  border:1px solid purple;
+  color:black;
+  font-size:20px;
+  transition:2s linear;
+}
+.div_2{
+  width:400px;
+  background-color:white;
+  height:550px;
+  box-shadow:0px 0px 4px 1px grey;
+  position:relative;
+  bottom:550px;
+  left:550px;
+}
+
+.div_2:hover{
+  box-shadow:0px 0px 7px 5px gray;
+  transition:0.2s ease-out;
+}
+  .div_3{
+  width:400px;
+  background-color:white;
+  height:550px;
+  box-shadow:0px 0px 4px 1px grey;
+  position:relative;
+  bottom:1100px;
+  left:960px;
+}
+.div_3:hover{
+  box-shadow:0px 0px 7px 5px gray;
+  transition:0.2s ease-out;
+}
+  
+
+.p_3{
+  font-size:30px;
+  position:relative;
+  left:300px;
+  display:block;
+  bottom:20px;
+}
+.reviews {
+    width: 1200px;
+    float: left;
+    left: 30px;
+    font-size:30px;
+    position:relative;
+    bottom:1000px;  
+}
+
+
+.review {
+    border-left: 20px double navy;
+    width: 1200px;
+    padding-left: 10px;
+}
+
+.review-text::before {
+    content: url("free-icon-telegram-2111644.png");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.review::after {
+    content: url("free-icon-like-309524.png");
+    width: 30px;
+    height:35px;
+    display: block;
+    opacity: 0.5;
+}
+
+.review:hover::after {
+    border-bottom: 3px dotted goldenrod;
+  opacity:1;
+}
+.review:focus::after {
+    border-bottom: 3px dotted goldenrod;
+  opacity:1;
+}
+
+span {
+    color: firebrick;
+    border-bottom: 1px dotted firebrick;
+}
+.govno{
+  position:relative;
+  bottom:1000px;
+}
